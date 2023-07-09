@@ -12,8 +12,8 @@
 <svelte:window bind:scrollY={y} />
 <div
 	class={`${
-		y < SCROLL_MARGIN ? 'opacity-0' : 'opacity-1'
-	} bg-white z-50 fixed top-0 left-4 right-4 transition-all duration-500 border-b`}
+		y < SCROLL_MARGIN ? 'opacity-0' : 'opacity-100'
+	} hover:opacity-100 bg-white z-50 fixed top-0 left-4 right-4 transition-all duration-500 border-b`}
 >
 	<nav class="flex items-center gap-2 justify-center m-2">
 		<NavLink href="#home">
