@@ -5,7 +5,7 @@
 			>spaenleh</span
 		>,
 		<br />
-		welcome on my personal page.
+		welcome.
 	</p>
 	<button
 		class="group hover:bg-slate-50 transition-all duration-500 p-3 rounded-xl"
